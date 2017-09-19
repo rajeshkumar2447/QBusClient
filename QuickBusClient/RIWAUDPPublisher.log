@@ -87,3 +87,140 @@
 2017-09-18 18:30:27,962 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
 2017-09-18 18:30:27,977 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
 2017-09-18 18:30:27,977 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:18:04,125 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:18:04,125 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:18:04,125 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:18:04,140 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:18:04,156 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-18 20:18:04,172 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-18 20:18:04,178 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-18 20:18:04,178 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:19:01,006 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:19:01,006 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:19:01,006 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:19:01,006 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:19:01,042 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-18 20:19:01,042 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-18 20:19:01,045 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-18 20:19:01,045 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:20:29,157 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:20:29,157 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:20:29,157 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:20:29,173 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:20:30,272 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - Error connecting to /192.168.1.111:8282 , due to Connection refused: connect :: Exception Name :: java.net.ConnectException
+2017-09-18 20:20:30,272 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - for detailed messages enable debug option in Log4j.properties
+2017-09-18 20:20:30,272 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:22:22,223 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:22:22,223 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:22:22,223 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:22:22,233 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:22:22,263 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-18 20:22:22,265 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-18 20:22:22,272 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-18 20:22:22,273 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:34:07,313 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:34:07,373 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:34:07,373 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:34:07,468 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:34:08,656 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - Error connecting to /192.168.1.111:8282 , due to Connection refused: connect :: Exception Name :: java.net.ConnectException
+2017-09-18 20:34:08,656 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - for detailed messages enable debug option in Log4j.properties
+2017-09-18 20:34:08,656 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:35:29,624 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:35:29,624 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:35:29,624 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:35:29,635 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:35:30,662 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - Error connecting to /192.168.1.111:8282 , due to Connection refused: connect :: Exception Name :: java.net.ConnectException
+2017-09-18 20:35:30,663 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - for detailed messages enable debug option in Log4j.properties
+2017-09-18 20:35:30,663 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:35:59,579 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:35:59,581 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:35:59,581 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:35:59,586 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:35:59,606 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-18 20:35:59,606 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-18 20:35:59,686 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-18 20:35:59,687 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-18 20:41:43,061 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-18 20:41:43,098 INFO main com.intelym.qbus.client.startup.BootStrap - ************ Version 1.00.000 Build 1000  *******
+2017-09-18 20:41:43,098 INFO main com.intelym.qbus.client.startup.BootStrap - Quick Client Bus is initializing
+2017-09-18 20:41:43,445 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-18 20:41:43,529 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-18 20:41:43,529 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-18 20:41:43,545 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-18 20:41:43,545 INFO main com.intelym.qbus.client.startup.BootStrap - Connection Successfuly Initialized
+2017-09-19 18:05:53,977 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-19 18:05:54,027 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Version 1.00.000 Build 1000  *******
+2017-09-19 18:05:54,027 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Quick Client Bus is initializing
+2017-09-19 18:05:54,049 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:9696
+2017-09-19 18:05:55,079 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - Error connecting to /192.168.1.111:9696 , due to Connection refused: connect :: Exception Name :: java.net.ConnectException
+2017-09-19 18:05:55,079 ERROR main com.intelym.qbus.client.connectors.tcp.BaseConnector - for detailed messages enable debug option in Log4j.properties
+2017-09-19 18:05:55,079 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Connection Successfuly Initialized
+2017-09-19 18:06:40,359 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-19 18:06:40,359 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Version 1.00.000 Build 1000  *******
+2017-09-19 18:06:40,359 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Quick Client Bus is initializing
+2017-09-19 18:06:40,373 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-19 18:06:40,389 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-19 18:06:40,389 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-19 18:06:40,389 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-19 18:06:40,399 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Connection Successfuly Initialized
+2017-09-19 18:06:40,399 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:41,400 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:42,412 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:43,420 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:44,422 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:45,431 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:46,434 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:47,444 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:48,448 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:49,464 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:50,485 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:51,500 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:06:52,500 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:05,472 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-19 18:08:05,472 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Version 1.00.000 Build 1000  *******
+2017-09-19 18:08:05,472 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Quick Client Bus is initializing
+2017-09-19 18:08:05,490 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-19 18:08:05,507 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-19 18:08:05,507 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-19 18:08:05,522 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-19 18:08:05,522 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Connection Successfuly Initialized
+2017-09-19 18:08:05,522 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:06,538 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:07,553 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:08,568 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:09,605 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:10,621 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:11,636 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:12,651 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:13,666 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:14,688 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:15,704 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:16,705 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:17,720 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:18,735 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:19,736 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:20,738 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:21,738 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:08:22,754 INFO QbusClient com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:23,326 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Quick Client Bus (messaging extension for Intelym) ********************
+2017-09-19 18:48:23,326 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - ************ Version 1.00.000 Build 1000  *******
+2017-09-19 18:48:23,326 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Quick Client Bus is initializing
+2017-09-19 18:48:23,336 ERROR main com.intelym.qbus.client.common.QBusClient - User Name can not be blank or null.
+2017-09-19 18:48:23,336 ERROR main com.intelym.qbus.client.common.QBusClient - Password can not be blank or null.
+2017-09-19 18:48:23,346 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Attempting socket connect to /192.168.1.111:8282
+2017-09-19 18:48:23,366 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket connected succesfully to /192.168.1.111:8282
+2017-09-19 18:48:23,366 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Socket established with time out of 5000 milliseconds and TcpNoDelay as true
+2017-09-19 18:48:23,376 INFO main com.intelym.qbus.client.connectors.tcp.BaseConnector - Streams are open for communication... with /192.168.1.111:8282
+2017-09-19 18:48:23,376 INFO main com.intelym.qbus.client.startup.TestQBusClientPro - Connection Successfuly Initialized
+2017-09-19 18:48:23,376 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:27,799 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:27,814 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:27,814 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:27,814 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:28,415 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:29,421 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:30,432 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:31,433 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:32,448 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:33,448 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}
+2017-09-19 18:48:34,449 INFO Q_BUS_CLIENT com.intelym.qbus.client.connectors.tcp.TcpMessenger - Received JSON :: {"header":{"messageType":"Order"},"body":{"scriptCode":22,"action":"buy"}}

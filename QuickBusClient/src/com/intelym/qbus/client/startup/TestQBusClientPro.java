@@ -19,12 +19,12 @@ import org.json.simple.JSONObject;
  *
  * @author Rajesh
  */
-public class BootStrap implements QEvent {
-    private static final IntelymLogger mLog = LoggerFactory.getLogger(BootStrap.class);
+public class TestQBusClientPro implements QEvent {
+    private static final IntelymLogger mLog = LoggerFactory.getLogger(TestQBusClientPro.class);
     //private static ClientConfiguration configuration = null;
     private Handler handler;
     
-    public BootStrap(){
+    public TestQBusClientPro(){
         printVersionInfo();
         //initialize();
         startProcessor();           
@@ -32,9 +32,10 @@ public class BootStrap implements QEvent {
     
     private void startProcessor() {
         try {
-            handler = QBusClient.GetInstance();
-            handler.setEventHandler(this);
-            if(handler.Connect("192.168.1.111", 8282)){
+//            handler = QBusClient.GetInstance();
+//            handler.setEventHandler(this);
+            handler = new QBusClient.QBusClientBuilder("192.168.1.111",8282).setQuickEvent(this).setUserCredentials("d", "d").build();
+            if(handler.Connect()){
                 mLog.info("Connection Successfuly Initialized");
             } else {
                 mLog.info("Connection Failed");
@@ -48,7 +49,7 @@ public class BootStrap implements QEvent {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new BootStrap();
+        new TestQBusClientPro();
     }
     
     /**
@@ -77,8 +78,10 @@ public class BootStrap implements QEvent {
 
     @Override
     public void OnPacketArrived(JSONObject jsonObj) {
-        System.out.println("com.intelym.qbus.client.startup.BootStrap.OnPacketArrived()");
-        handler.onDataSend(jsonObj);
+        System.out.println("Event OnPacketArrived()");
+        handler.send(jsonObj);
+        
+        System.out.println("Call onDataSend()");
     }
 
 }

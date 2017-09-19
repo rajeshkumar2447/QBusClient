@@ -5,8 +5,6 @@
  */
 package com.intelym.qbus.client.common;
 
-import com.intelym.qbus.client.packet.event.EventDetails;
-import com.intelym.qbus.client.packet.event.QEvent;
 import org.json.simple.JSONObject;
 
 /**
@@ -14,13 +12,13 @@ import org.json.simple.JSONObject;
  * @author Rajesh
  */
 public interface Handler {
-    void setEventHandler(QEvent qEvent);
-    void SetUserCredentials(String username, String password);
-    boolean Connect(String address, int port);
+    //void setEventHandler(QEvent qEvent);
+    //void SetUserCredentials(String username, String password);
+    boolean Connect();
     boolean Disconnect();
-    void OnError(EventDetails eDetails);
-    void OnDisconnect(EventDetails eDetails);
+    //void OnError(EventDetails eDetails);
+    //void OnDisconnect(EventDetails eDetails);
     void SetEnableLogging(String logPath);
-    void onDataArrived(JSONObject jsonObj);
-    void onDataSend(JSONObject jsonObj);
+    //void onDataArrived(JSONObject jsonObj);
+    void send(JSONObject jsonObj);
 }

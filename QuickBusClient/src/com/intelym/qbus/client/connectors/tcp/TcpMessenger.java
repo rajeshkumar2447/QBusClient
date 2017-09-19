@@ -5,10 +5,10 @@
  */
 package com.intelym.qbus.client.connectors.tcp;
 
-import com.intelym.client.configuration.ClientConfiguration;
 import com.intelym.client.logger.IntelymLogger;
 import com.intelym.client.logger.LoggerFactory;
 import com.intelym.qbus.client.common.Handler;
+import com.intelym.qbus.client.packet.event.QEvent;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
@@ -17,11 +17,11 @@ import org.json.simple.parser.JSONParser;
  * @author Rajesh
  */
 public class TcpMessenger extends BaseConnector implements Runnable {
-    private final static IntelymLogger mLog = LoggerFactory.getLogger(ClientConfiguration.class);
-    private Handler handler;
+    private final static IntelymLogger mLog = LoggerFactory.getLogger(TcpMessenger.class);
+    private QEvent qEvent;
     
-    public TcpMessenger(Handler handler) {
-        this.handler = handler;
+    public TcpMessenger(QEvent qEvent) {
+        this.qEvent = qEvent;
     }
     
     @Override
@@ -36,6 +36,7 @@ public class TcpMessenger extends BaseConnector implements Runnable {
                             int packetLength = in.readShort();
                             if (packetLength > 0) {
                                 String jsonString = in.readChars(packetLength);
+                                mLog.info("Received JSON :: " + jsonString);
                                 JSONParser parser = new JSONParser();
                                 receivePacket((JSONObject)parser.parse(jsonString));
                             } else {
@@ -52,7 +53,7 @@ public class TcpMessenger extends BaseConnector implements Runnable {
     }
     
     private void receivePacket(JSONObject jsonObj) {
-        handler.onDataArrived(jsonObj);
+        qEvent.OnPacketArrived(jsonObj);
     }
     
     public void sendPacket(JSONObject jsonObject) {
